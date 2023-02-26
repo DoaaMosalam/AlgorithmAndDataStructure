@@ -1,4 +1,4 @@
-package Java.Revision;
+package Java.Arrays;
 
 public  class Arraystructure {
     private static int[] array = new int[50];
