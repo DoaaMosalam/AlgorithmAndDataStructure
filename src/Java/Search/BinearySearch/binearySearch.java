@@ -1,4 +1,4 @@
-package Java.Search;
+package Java.Search.BinearySearch;
 
 public class binearySearch {
     public static int BinearySearch(int []x,int low,int hight,int num){

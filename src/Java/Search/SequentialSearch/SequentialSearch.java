@@ -1,4 +1,4 @@
-package Java.Search;
+package Java.Search.SequentialSearch;
 
 public class SequentialSearch {
     private static int[] numList = {21,15,90,11,18,1025,105,6,12};
