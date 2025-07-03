@@ -61,7 +61,7 @@ Kotlin/
 └── Tree/                  # Binary trees and traversals
 ```
 
-🔵 C++ (Coming Soon)
+## 🔵 C++ (Coming Soon)
 We plan to expand into C++ soon, for those preparing for CP or system-level interviews.
 
 🌟 Why This Repo?
@@ -77,7 +77,7 @@ Learning Java/Kotlin idiomatic DSA
 
 This repo is designed to help you practice + understand DSA deeply.
 
-🧑‍💻 How to Run
+## 🧑‍💻 How to Run
 Java
 Use any Java IDE (like IntelliJ or Eclipse):
 
@@ -92,21 +92,21 @@ Use IntelliJ IDEA to open the Kotlin/ folder and run any .kt file with main()
 
 Or use the online Kotlin Playground
 
-💡 Future Plans
+## 💡 Future Plans
 ✅ Add problem descriptions inside each file
 
 ✅ Add time & space complexity analysis
 
 🛠 Add README for each folder
 
-🕒 Add C++ implementations
+## 🕒 Add C++ implementations
 
 ✍️ Add explanations or blog references for each algorithm
 🤝 Contributions
 Contributions are welcome!
 
 
-You can:
+## You can:
 
 Add more problems or languages
 
@@ -127,7 +127,7 @@ Make your changes
 Submit a Pull Request
 
 
-##⭐ If You Like This Project...
+## ⭐ If You Like This Project...
 Please consider:
 
 Giving it a star ⭐
