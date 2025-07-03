@@ -1,7 +1,5 @@
 package Search.LinearSearch;
 
-import java.util.Arrays;
-
 public class LinearSearch {
     public static boolean linearSearch(int[] x, int num) {
 //        int  loction = Arrays.binarySearch(x,num);

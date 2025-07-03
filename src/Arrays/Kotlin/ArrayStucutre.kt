@@ -2,7 +2,10 @@ package Arrays.Kotlin
 
 class ArrayStucutre() {
 
-    private val item = mutableListOf<Int>()
+    private val item = mutableListOf<Any>()
+
+    
+
     /**
      * write fun take element array from user
      * */
@@ -27,7 +30,11 @@ class ArrayStucutre() {
         }
         println("Array elements: $item")
     }
-
+/**
+ * Remove element from array
+ * * This function prompts the user to enter an element to remove from the array.
+ * * It searches for the element in the array and removes it if found.
+ * */
     fun removeElement() {
         if (item.isEmpty()) {
             println("Array is empty. Nothing to remove.")
@@ -46,12 +53,29 @@ class ArrayStucutre() {
         println("Updated array: $item")
     }
 
+   fun getElementByIndex(){
+       println("Enter the index of the element you want to retrieve:")
+       val input = readLine()?.toIntOrNull()
+         if (input == null || input < 0 || input >= item.size) {
+              println("Invalid index. Please enter a valid index.")
+              return
+         }
+       for (i in item.indices){
+
+           if ( i == input){
+                println("Element at index $input is ${item[i]}")
+           }
+       }
+
+   }
+
 }
 
 
 fun main() {
     val arr = ArrayStucutre()
     arr.add()
-    arr.removeElement()
+//    arr.removeElement()
+    arr.getElementByIndex() // Example index, change as needed
 
 }
