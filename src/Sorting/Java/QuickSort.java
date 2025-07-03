@@ -1,4 +1,4 @@
-package Sorting;
+package Sorting.Java;
 
 public class QuickSort extends Sort{
     static void quickSort(int[]array,int low,int hight){

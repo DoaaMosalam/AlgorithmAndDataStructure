@@ -39,7 +39,7 @@ Java/
 ├── DFS_Search/            # DFS algorithms for graphs and trees
 ├── LinkedList/
 │   ├── LinkedList/        # Linked list operations
-│   └── listNode/          # Node structures
+│   └── Node/          # Node structures
 ├── ListNode.DataStructure/ # Extra node logic (to review)
 ├── Queue/                 # Queue data structure problems
 ├── Recursion/             # Recursive algorithms and patterns
@@ -51,7 +51,7 @@ Kotlin/
 ├── DFS_Search/            # DFS in Kotlin
 ├── LinkedList/
 │   ├── LinkedList/        # Kotlin-linked list logic
-│   └── listNode/          # Node using Kotlin data classes
+│   └── Node/          # Node using Kotlin data classes
 ├── Queue/                 # Queue logic in Kotlin
 ├── Recursion/             # Recursive Kotlin solutions
 ├── RevisionAlgorithm/     # Mixed DSA revision in Kotlin

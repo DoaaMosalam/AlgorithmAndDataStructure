@@ -94,7 +94,7 @@ private int sizeArray =10;
        myStack.push("Mostafa");
         myStack.push("Fatma");
         myStack.push("Mahmoud");
-        myStack.push("Tamer Hosseny");
+        myStack.push("Tamer");
       //  myStack.push("Hamaki");
         System.out.println(myStack);
         String p = myStack.pop();

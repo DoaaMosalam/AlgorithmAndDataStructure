@@ -1,4 +1,4 @@
-package Sorting;
+package Sorting.Java;
 
 public class Merge_Sort extends Sort {
 
