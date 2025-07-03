@@ -1,22 +1,22 @@
 package LinkedList.Java;
 
 public class LinkedList {
-   public listNode head = null;
+   public Node head = null;
     //This method implement display element in linked list
    public void print(){
-     listNode n = head;
+     Node n = head;
      while (n!=null){
          System.out.printf("%s ",n.value);
          n=n.next;
      }
    }
    public void add(char value,int index) {
-       listNode newNode = new listNode(value);
+       Node newNode = new Node(value);
        if (index == 0) {
            newNode.next = head;
            head = newNode;
        } else {
-           listNode list = head;
+           Node list = head;
            for (int count = 0; count < index - 1; count++) {
                list = list.next;
            }
@@ -29,11 +29,11 @@ public class LinkedList {
        if (index ==0){
            head = head.next;
        }else {
-           listNode i = head;
+           Node i = head;
            for (int count = 0; count < index - 1; count++) {
                i = i.next;
            }
-           listNode j = i.next;
+           Node j = i.next;
            i.next = j.next;
        }
    }

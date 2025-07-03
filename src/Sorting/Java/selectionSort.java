@@ -1,4 +1,4 @@
-package Sorting;
+package Sorting.Java;
 
 public class selectionSort extends Sort{
     //this is big o^

@@ -1,4 +1,4 @@
-package Sorting;
+package Sorting.Java;
 
 public class HeapSort extends Sort {
 //    //this code from lesson youtube(the new baghdad);

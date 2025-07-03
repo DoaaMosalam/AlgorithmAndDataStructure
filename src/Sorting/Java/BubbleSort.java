@@ -1,4 +1,4 @@
-package Sorting;
+package Sorting.Java;
 
 public class BubbleSort extends Sort {
     //sort array way bubble sort.

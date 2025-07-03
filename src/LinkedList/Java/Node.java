@@ -1,11 +1,11 @@
 package LinkedList.Java;
 
-public class listNode {
+public class Node {
     public char value;
-    public listNode next =null;
+    public Node next =null;
 
     //Constructor.
-    public listNode(char c){
+    public Node(char c){
         this.value=c;
     }
 

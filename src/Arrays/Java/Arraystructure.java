@@ -77,7 +77,6 @@ public  class Arraystructure {
         System.out.println();
         return indexWithValue;
 
-
     }
 
             public static void main (String[] args) {
@@ -85,12 +84,12 @@ public  class Arraystructure {
                 System.out.println(getValueAtIndex(3));
                 System.out.println("Value fount : " + doesarraycontainsThisValue(17));
 
-//                deleteArray(4);
-//                System.out.println("++++++++++++++++++++++++++++++++++");
-//                printarray();
-//                System.out.println("----------------------------------------------------------");
-//                System.out.println("inset Element: ");
-//                insertElementInArray(13213123);
+                deleteArray(4);
+                System.out.println("++++++++++++++++++++++++++++++++++");
+                printarray();
+                System.out.println("----------------------------------------------------------");
+                System.out.println("inset Element: ");
+                insertElementInArray(13213123);
                 System.out.println("----------------------------------------------------------");
                 printarray();
                 System.out.println("===============================================");

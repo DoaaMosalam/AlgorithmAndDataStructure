@@ -3,7 +3,7 @@ package Arrays.Java;
 import java.util.Scanner;
 
 public class RevisionArrayAndStruct {
-    //طباعه اراي يكون عناصرها من ادخال المستخدم
+  // print an array with elements entered by the user
     public static int[] Array (){
         Scanner input = new Scanner(System.in);
         int s;

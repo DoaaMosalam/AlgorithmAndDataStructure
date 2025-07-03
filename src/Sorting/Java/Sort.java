@@ -1,4 +1,4 @@
-package Sorting;
+package Sorting.Java;
 
 public abstract class Sort {
     final static int[] sortArray = {29,10,30,7,1,9,10,-6};

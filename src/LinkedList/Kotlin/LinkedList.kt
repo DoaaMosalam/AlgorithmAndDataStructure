@@ -1,44 +1,42 @@
 package LinkedList.Kotlin
 
 class LinkedList {
-    var head: ListNode? = null
 
-    // print all values in the linked list
-    fun printAllValues() {
-        var currentValue: ListNode? = head
-        while (currentValue != null) {
-            print("${currentValue.next}")
-            currentValue = currentValue.listNode
-        }
-    }
+    // Class to represent a node in the linked list
+    class Node(var data: Int, var next: Node? = null)
+    // List head
+    private var head: Node? = null
+    // Function to add a new node at the end of the list
 
-    fun addValue(value: Char, index: Int) {
-        val newNode = ListNode(value)
-        if (head != null) {
+  fun add(data: Int) {
+        val newNode = Node(data)
+        if (head == null) {
             head = newNode
         } else {
-            var currentValue = head
-            var currentIndex = 0
-            while (currentValue != null && currentIndex < index) {
-                currentValue = currentValue.listNode
-                currentIndex++
-
+            var current = head
+            while (current?.next != null) {
+                current = current.next
             }
+            current?.next = newNode
         }
     }
-}
 
-fun main() {
+    // Function to print the linked list
+    fun printList() {
+        var current = head
+        while (current != null) {
+            print("${current.data} -> ")
+            current = current.next
+        }
+        println("null")
+    }
+
+
+
+
+}
+fun main(){
     val list = LinkedList()
-    // Add some values to the linked list
-     list.addValue('a', 0)
-    list.addValue('B',1)
-    list.addValue('C',2)
-    list.addValue('D', 3)
-    print("Values in the linked list: $")
-
-    // Print all values in the linked list
-    list.printAllValues()
-
 
 }
+
